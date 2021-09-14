@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">UGD2_A_0181</string>
+    <string name="exit_app">Exit App</string>
+    <string name="dosen">Dosen</string>
+    <string name="mahasiswa">Mahasiswa</string>
+    <string name="student_login">Student Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="clear_field">Clear Field</string>
+    <string name="login">Login</string>
+    <string name="nama_mahasiswa">Nama Mahasiswa</string>
+    <string name="tahun_masuk_ipk">Tahun Masuk - IPK</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="this_is_dosen_fragment">This is Dosen Fragment</string>
+    <string name="nama_dosen">Nama Dosen</string>
+    <string name="nip">NIP</string>
+    <string name="tahun_bergabung">Bergabung Sejak _ Tahun Lalu</string>
+    <string name="url1">Bergabung Sejak </string>
+    <string name="url2"> Tahun Lalu</string>
+</resources>

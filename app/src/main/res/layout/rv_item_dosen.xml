@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="4dp" >
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:checkable="true"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/white" >
+
+    <ImageView
+        android:id="@+id/glide"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/undraw_teacher_35j2"
+        android:layout_marginStart="20dp"
+        tools:srcCompat="@tools:sample/avatars" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="110dp" >
+
+        <TextView
+            android:id="@+id/tv_namaDosen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nama_dosen"
+            android:layout_marginTop="20dp"
+            style="@style/TextAppearance.MaterialComponents.Headline5" />
+
+        <TextView
+            android:id="@+id/tv_nipDosen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nip" />
+
+        <TextView
+            android:id="@+id/tv_tahunBergabungDosen"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tahun_bergabung"
+            android:paddingTop="10dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="20dp" />
+
+    </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>
